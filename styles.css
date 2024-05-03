@@ -27,6 +27,7 @@ main{
 .recipe-title{
     font-family: young serif, serif;
     font-size: 40px;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -69,6 +70,7 @@ main{
     font-family: young serif, serif;
     color: hsl(14, 45%, 36%);
     font-size: 28px;
+    font-weight: 400;
 }
 
 footer{
