@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --clr-netural-White: hsl(0, 0%, 100%);
   --clr-netural-Rose-White: hsl(330, 100%, 98%);
@@ -225,3 +226,171 @@ section:not(:last-child, .prep-time) {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+=======
+html{
+    font-family: Outfit, sans-serif;
+    background-color: hsl(30, 54%, 90%);
+}
+
+
+body{
+    width: 736px;
+    margin: 0 auto;
+}
+
+.omelette{
+    width: 657px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+main{
+    background-color: white;
+    color: hsl(24, 5%, 18%);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.recipe-title{
+    font-family: young serif, serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.description{
+    color: hsl(30, 10%, 34%);
+}
+
+.preptime{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.preptime>h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.preptime>ul{
+    line-height: 2;
+    margin-top: 5px;
+    color: hsl(332, 51%, 32%);
+    padding-left: 30px;
+}
+
+.preptime li{
+    padding-left: 20px;
+}
+
+.preptime span{
+    color: hsl(24, 5%, 18%);
+}
+
+.title{
+    font-family: young serif, serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 28px;
+    font-weight: 400;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+.ingredients >.title{
+    margin-bottom: 14px;
+    margin-top: 25px;
+}
+
+.ingredient-list{
+    list-style: square;
+    color: hsl(14, 45%, 36%);
+    line-height: 2;
+    font-size: 12px;
+    padding-left: 22px;
+}
+
+.ingredient-list span{
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 18px;
+}
+
+hr{
+    opacity: 20%;
+    margin-top: 28px;
+}
+
+.instructions >.title{
+    margin-bottom: 14px;
+    margin-top: 27px;
+}
+
+.instruction-list{
+    color: hsl(14, 45%, 36%);
+    line-height: 1.7;
+    padding-left: 25px;
+    list-style-position: outside;
+    font-weight: 500;
+}
+
+.instruction-list>li{
+    padding-left: 16px;
+    text-indent: -16px;
+    padding-bottom: 2px;
+}
+
+.instruction-list span{
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 16px;
+}
+
+.nutrition > h2{
+    margin-top: 26px;
+}
+
+.nutrition > p{
+    margin-bottom: 8px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+td>p{
+    color: hsl(30, 10%, 34%);
+}
+
+.tableno{
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+    height: 20px;
+}
+
+table{
+    width:100%;
+}
+
+td{
+    height: 0px;
+    border-bottom: 1px solid #00000020;
+}
+
+
+.col1{
+    padding-left: 27px;
+    width: 27px;
+}
+
+
+>>>>>>> 50f9f0b740bb921f06666f2b6a4503fb33fa2c7f
